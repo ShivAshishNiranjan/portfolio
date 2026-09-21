@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://shivashishniranjan.github.io/portfolio/"),
   title: "Shiv Ashish | Staff SDET & Engineering Leader",
-  description: "Staff Software Engineer and engineering leader building automation frameworks, internal developer tools, performance validation systems, and AI-assisted workflows.",
+  description: "Staff SDET and engineering leader building automation frameworks, internal developer tools, performance validation systems, and AI-assisted workflows.",
   keywords: ["Shiv Ashish", "Staff SDET", "Engineering Leadership", "Quality Engineering", "Performance Engineering", "Test Automation", "Developer Productivity"],
   authors: [{ name: "Shiv Ashish", url: "https://www.linkedin.com/in/shiv-ashish/" }],
   openGraph: {
