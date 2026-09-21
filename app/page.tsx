@@ -1,4 +1,5 @@
 import Image from "next/image";
+import profileImage from "../public/shiv-ashish-profile.png";
 
 const experience = [
   {
@@ -162,23 +163,22 @@ export default function Home() {
             <div className="hero-copy">
               <div className="availability"><span /> Staff SDET · JioHotstar</div>
               <h1>Quality engineering leader building systems that help teams <em>ship faster and safer at scale.</em></h1>
-              <p className="hero-lede">Staff Software Engineer with 12+ years driving engineering productivity, release quality, and platform reliability at scale. I build automation frameworks, internal developer tools, performance validation systems, and AI-assisted workflows.</p>
+              <p className="hero-lede">Staff SDET with 12+ years driving engineering productivity, release quality, and platform reliability at scale. I build automation frameworks, internal developer tools, performance validation systems, and AI-assisted workflows.</p>
               <div className="hero-actions">
                 <a className="button button-primary" href="#work">Explore my impact <span aria-hidden="true">↓</span></a>
-                <a className="button button-secondary" href="./Shiv_Ashish_Resume.pdf" download="Shiv_Ashish_Resume.pdf">Download resume (PDF) <span aria-hidden="true">↓</span></a>
-                <a className="hero-view-link" href="./Shiv_Ashish_Resume.pdf" target="_blank" rel="noreferrer">View in browser <Arrow /></a>
+                <a className="button button-secondary" href="./Shiv_Ashish_Resume_April_2026.docx" download="Shiv_Ashish_Resume_April_2026.docx">Download resume <span aria-hidden="true">↓</span></a>
+                <a className="hero-view-link" href="./resume/" target="_blank" rel="noreferrer">View in browser <Arrow /></a>
               </div>
             </div>
 
             <aside className="hero-note" aria-label="Profile summary">
               <div className="note-profile">
-                <Image className="profile-photo" src="/shiv-ashish-profile.png" alt="Shiv Ashish" width={794} height={672} priority />
+                <Image className="profile-photo" src={profileImage} alt="Shiv Ashish" priority />
                 <div>
-                  <p className="note-kicker">How I work</p>
                   <strong>Shiv Ashish</strong>
                 </div>
               </div>
-              <p className="note-quote">“Deep technical execution, clear leadership, and tools that make the whole engineering team better.”</p>
+              <p className="note-quote">“Turning quality engineering into an accelerator for faster, safer releases.”</p>
               <div className="note-rule" />
             </aside>
           </div>
