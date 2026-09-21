@@ -26,7 +26,7 @@ The static site is exported to `out/`.
 3. Under **Build and deployment**, select **GitHub Actions** as the source.
 4. Push to `main` (or run the workflow manually).
 
-The included workflow builds the correct base path for a project site such as `https://shivashishniranjan.github.io/shivashish-portfolio/`.
+The included workflow builds the correct base path for the project site at `https://shivashishniranjan.github.io/portfolio/`.
 
 ## Content sources
 

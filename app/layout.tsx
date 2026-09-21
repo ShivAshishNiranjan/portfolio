@@ -2,19 +2,19 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://shivashishniranjan.github.io/shivashish-portfolio/"),
-  title: "Shiv Ashish | Staff SDET",
-  description: "Portfolio of Shiv Ashish, a Staff SDET specializing in quality architecture, performance engineering, developer productivity, and DevOps.",
-  keywords: ["Shiv Ashish", "Staff SDET", "SDET", "Quality Engineering", "Performance Engineering", "Test Automation"],
+  metadataBase: new URL("https://shivashishniranjan.github.io/portfolio/"),
+  title: "Shiv Ashish | Staff SDET & Engineering Leader",
+  description: "Staff Software Engineer and engineering leader building automation frameworks, internal developer tools, performance validation systems, and AI-assisted workflows.",
+  keywords: ["Shiv Ashish", "Staff SDET", "Engineering Leadership", "Quality Engineering", "Performance Engineering", "Test Automation", "Developer Productivity"],
   authors: [{ name: "Shiv Ashish", url: "https://www.linkedin.com/in/shiv-ashish/" }],
   openGraph: {
-    title: "Shiv Ashish | Engineering quality at real-world scale",
-    description: "Staff SDET building quality platforms, performance systems, and developer tools.",
+    title: "Shiv Ashish | Staff SDET & Engineering Leader",
+    description: "Building the frameworks, tools, and performance systems behind reliable software.",
     type: "website",
-    url: "https://shivashishniranjan.github.io/shivashish-portfolio/",
+    url: "https://shivashishniranjan.github.io/portfolio/",
     images: [
       {
-        url: "https://shivashishniranjan.github.io/shivashish-portfolio/og.png",
+        url: "https://shivashishniranjan.github.io/portfolio/og.png",
         width: 1200,
         height: 630,
         alt: "Shiv Ashish — Staff SDET",
@@ -23,9 +23,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shiv Ashish | Engineering quality at real-world scale",
-    description: "Staff SDET building quality platforms, performance systems, and developer tools.",
-    images: ["https://shivashishniranjan.github.io/shivashish-portfolio/og.png"],
+    title: "Shiv Ashish | Staff SDET & Engineering Leader",
+    description: "Building the frameworks, tools, and performance systems behind reliable software.",
+    images: ["https://shivashishniranjan.github.io/portfolio/og.png"],
   },
 };
 
