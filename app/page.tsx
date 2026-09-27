@@ -3,13 +3,16 @@ import profileImage from "../public/shiv-ashish-profile.png";
 
 const experience = [
   {
-    company: "JioHotstar",
+    company: "Disney+ Hotstar",
     role: "Staff SDET",
     period: "Aug 2022 — Present",
     location: "Remote",
     highlights: [
-      "Owned performance qualification for marquee ICC events, validating Hotstar X at 80M concurrency and supporting growth from 26M to 72M peak concurrent users.",
-      "Led central tools including Test Data Service, Endgame, Trap, MCP workflows, and a Slack on-call agent that cut support bandwidth by 50%.",
+      "Lead a four-person Central Tools team that builds and operates internal quality-engineering platforms, including the Test Data Service, the Endgame backend automation framework, and Trap for chaos and panic testing.",
+      "Own performance qualification for the Hotstar X platform, defining load-test strategy, game-day simulations, acceptance criteria, infrastructure readiness, and capacity planning for marquee ICC events; supported growth from 26M to 72M peak concurrent users and validated the platform at 80M concurrency.",
+      "Built and scaled the Spring Boot-based Test Data Service into a centralized test-data platform adopted by 18 teams, handling peak traffic of 100K requests per day while maintaining 99% availability.",
+      "Built Endgame, a reusable backend automation framework adopted by QE teams and integrated into CI pipelines for all backend deployments, standardizing test execution across services and reducing release-cycle time by 50%.",
+      "Built an AI-assisted on-call workflow using MCP servers, reusable skills, and Slack integration, reducing on-call support bandwidth by 50%.",
     ],
   },
   {
@@ -63,7 +66,7 @@ const skillGroups = [
   {
     icon: "✦",
     title: "AI & Engineering Productivity",
-    keywords: ["Claude", "ChatGPT", "GitHub Copilot", "Prompt Engineering", "AI-Driven Workflow Automation", "LLM Integration"],
+    keywords: ["Codex CLI", "Claude Code", "ChatGPT", "GitHub Copilot", "Prompt Engineering", "AI-Assisted Development", "Agentic Workflow Automation", "MCP Integration", "LLM Integration"],
   },
   {
     icon: "✓",
@@ -73,7 +76,7 @@ const skillGroups = [
   {
     icon: "↗",
     title: "Performance, Resiliency & Observability",
-    keywords: ["Vegeta", "Gatling", "Locust", "Chaosblade", "Grafana", "AWS CloudWatch", "Coralogix", "MySQL", "PostgreSQL", "Redis"],
+    keywords: ["k6", "Vegeta", "Gatling", "Locust", "Chaosblade", "Grafana", "AWS CloudWatch", "Coralogix", "MySQL", "PostgreSQL", "Redis"],
   },
   {
     icon: "☁",
@@ -134,7 +137,7 @@ export default function Home() {
         </nav>
         <div className="sidebar-profile">
           <span>Staff SDET</span>
-          <strong>JioHotstar</strong>
+          <strong>Disney+ Hotstar</strong>
           <a href="https://www.linkedin.com/in/shiv-ashish/" target="_blank" rel="noreferrer">LinkedIn <Arrow /></a>
         </div>
       </aside>
@@ -161,12 +164,12 @@ export default function Home() {
         <section className="hero shell" id="top">
           <div className="hero-grid">
             <div className="hero-copy">
-              <div className="availability"><span /> Staff SDET · JioHotstar</div>
+              <div className="availability"><span /> Staff SDET · Disney+ Hotstar</div>
               <h1>Quality engineering leader building systems that help teams <em>ship faster and safer at scale.</em></h1>
               <p className="hero-lede">Staff SDET with 12+ years driving engineering productivity, release quality, and platform reliability at scale. I build automation frameworks, internal developer tools, performance validation systems, and AI-assisted workflows.</p>
               <div className="hero-actions">
                 <a className="button button-primary" href="#work">Explore my impact <span aria-hidden="true">↓</span></a>
-                <a className="button button-secondary" href="./Shiv_Ashish_Resume_April_2026.docx" download="Shiv_Ashish_Resume_April_2026.docx">Download resume <span aria-hidden="true">↓</span></a>
+                <a className="button button-secondary" href="./Shiv_Ashish_Staff_SDET_Resume.docx" download="Shiv_Ashish_Staff_SDET_Resume.docx">Download resume <span aria-hidden="true">↓</span></a>
                 <a className="hero-view-link" href="./resume/" target="_blank" rel="noreferrer">View in browser <Arrow /></a>
               </div>
             </div>
