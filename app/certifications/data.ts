@@ -124,6 +124,12 @@ export const certificateCategories = [
     "description": "Reflects continued learning in LLMs, MCP, prompting, and agent tooling that can improve developer effectiveness and testing workflows.",
     "certificates": [
       {
+        "title": "OpenAI API and MCP Development",
+        "provider": "LinkedIn Learning",
+        "date": "2026-09-22",
+        "url": "https://www.linkedin.com/learning/certificates/dbe00990685bd90b45fdf597a7ca98bfc944bc9dcf44a3aeac1f5b09bb178e9a"
+      },
+      {
         "title": "Build and Deploy Anywhere with OpenAI GPT-5-Codex",
         "provider": "LinkedIn Learning",
         "date": "2026-06-01",
@@ -460,48 +466,5 @@ export const certificateCategories = [
         "url": "https://www.linkedin.com/learning/certificates/d0db51204ffc4e7e8358f64b85af9e0746806247a45f42737513408891d6467e/"
       }
     ]
-  },
-  {
-    "title": "Soft Skills",
-    "description": "Represents the communication and execution habits that matter in cross-functional delivery, stakeholder handling, and incident ownership.",
-    "certificates": [
-      {
-        "title": "Digital Body Language",
-        "provider": "LinkedIn Learning",
-        "date": "2026-05-01",
-        "url": "https://www.linkedin.com/learning/certificates/13211dd65a400427d5d2dfe0414b6365d3e944f985bf1eaa657c397ef579d28e?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B8LYkYyfURWqdyT5Gfw6fgQ%3D%3D"
-      },
-      {
-        "title": "Effective Listening (2019)",
-        "provider": "LinkedIn Learning",
-        "date": "2026-01-01",
-        "url": "https://www.linkedin.com/learning/certificates/c169af1fd7c5ddfc0903e27eefe56c88bcf8ea55aa822776ede39e4b93bdec29/"
-      },
-      {
-        "title": "Develop Your Communication Skills and Interpersonal Influence",
-        "provider": "LinkedIn Learning",
-        "date": "2024-10-01",
-        "url": "https://www.linkedin.com/learning/certificates/58e29c6362eb5f96ca15ee7e882cb7d0f5a10a3e93003056f51e0a2b16e11871/"
-      },
-      {
-        "title": "How to Boost Your Productivity with AI Tools",
-        "provider": "LinkedIn Learning",
-        "date": "2024-10-01",
-        "url": "https://www.linkedin.com/learning/certificates/3abb64624a789e0bfb264acbbb000df5f3bf23d60607c2a1fae128596eb6e0ca/"
-      },
-      {
-        "title": "Overcoming Procrastination",
-        "provider": "LinkedIn Learning",
-        "date": "2024-10-01",
-        "url": "https://www.linkedin.com/learning/certificates/c3dd0ef72683b13350511df24e2cc2c250e8c4a34937222f15d37eb9e74dc1a0/"
-      },
-      {
-        "title": "Communicating with Confidence",
-        "provider": "LinkedIn Learning",
-        "date": "2024-08-01",
-        "url": "https://www.linkedin.com/learning/certificates/150ac511c4a798eb0231cae33711fd728d0e74ee402b29500aa0f90f80f80dc5/"
-      }
-    ]
   }
 ] as const;
-
