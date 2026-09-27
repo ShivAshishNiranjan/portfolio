@@ -3,7 +3,7 @@ import { certificateCategories } from "./data";
 
 export const metadata: Metadata = {
   title: "Certifications | Shiv Ashish",
-  description: "79 certifications grouped across automation, AI, DevOps, programming, and professional skills.",
+  description: "74 certifications grouped across automation, AI, DevOps, and programming.",
 };
 
 function Arrow() {
@@ -39,7 +39,6 @@ export default function CertificationsPage() {
         </nav>
         <div className="sidebar-profile">
           <span>{total} verified credentials</span>
-          <strong>{certificateCategories.length} capability areas</strong>
           <a href="https://www.linkedin.com/in/shiv-ashish/details/certifications/" target="_blank" rel="noreferrer">LinkedIn catalog <Arrow /></a>
         </div>
       </aside>
@@ -66,13 +65,11 @@ export default function CertificationsPage() {
           <div>
             <p className="eyebrow">Verified learning</p>
             <h1>Certification<br /><em>catalog.</em></h1>
-            <p>Credential-backed learning across the technical and leadership areas that support my work as a Staff SDET.</p>
+            <p>Credential-backed learning across the technical disciplines that support my work as a Staff SDET.</p>
           </div>
-          <div className="catalog-summary" aria-label={`${total} certifications across ${certificateCategories.length} categories`}>
+          <div className="catalog-summary" aria-label={`${total} certifications`}>
             <strong>{total}</strong>
             <span>certifications</span>
-            <strong>{certificateCategories.length}</strong>
-            <span>capability areas</span>
           </div>
         </section>
 

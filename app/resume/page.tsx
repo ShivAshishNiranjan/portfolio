@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Resume | Shiv Ashish",
-  description: "Shiv Ashish resume with experience, skills, education, and certifications.",
+  description: "Shiv Ashish resume with experience, skills, and education.",
 };
 
 const experience = [
@@ -12,9 +12,11 @@ const experience = [
     location: "Remote",
     period: "Aug 2022 - Present",
     highlights: [
-      "Owned performance qualification for the Hotstar X platform, defining load testing strategy, gameday simulations, acceptance criteria, infrastructure setup, and capacity planning for marquee ICC events, supporting platform growth from 26M to 72M peak concurrent users and validating performance at 80M concurrency.",
-      "Led a team of 4 in the Central Tools team to deliver and evolve internal productivity platforms, including a Spring Boot-based Test Data Service, the Endgame backend automation framework, and Trap for chaos and panic testing, improving developer and QA efficiency across teams.",
-      "Expanded adoption of internal tools through MCP servers and reusable skills that made data and workflows accessible via plain-English interactions, and cut on-call bandwidth by 50% by building a Slack-integrated oncall agent.",
+      "Lead a four-person Central Tools team that builds and operates internal quality-engineering platforms, including the Test Data Service, the Endgame backend automation framework, and Trap for chaos and panic testing.",
+      "Own performance qualification for the Hotstar X platform, defining load-test strategy, game-day simulations, acceptance criteria, infrastructure readiness, and capacity planning for marquee ICC events; supported growth from 26M to 72M peak concurrent users and validated the platform at 80M concurrency.",
+      "Built and scaled the Spring Boot-based Test Data Service into a centralized test-data platform adopted by 18 teams, handling peak traffic of 100K requests per day while maintaining 99% availability.",
+      "Built Endgame, a reusable backend automation framework adopted by QE teams and integrated into CI pipelines for all backend deployments, standardizing test execution across services and reducing release-cycle time by 50%.",
+      "Built an AI-assisted on-call workflow using MCP servers, reusable skills, and Slack integration, reducing on-call support bandwidth by 50%.",
     ],
   },
   {
@@ -63,9 +65,9 @@ const experience = [
 
 const skillGroups = [
   ["Technical Leadership & Architecture", ["Test Architecture", "Automation Frameworks", "CI/CD Orchestration", "Performance & Scalability", "Spring Boot", "Flask"]],
-  ["AI & Engineering Productivity", ["Claude", "ChatGPT", "GitHub Copilot", "Prompt Engineering", "AI-Driven Workflow Automation", "LLM Integration"]],
+  ["AI & Engineering Productivity", ["Codex CLI", "Claude Code", "ChatGPT", "GitHub Copilot", "Prompt Engineering", "AI-Assisted Development", "Agentic Workflow Automation", "MCP Integration", "LLM Integration"]],
   ["Test Automation", ["BDD", "Cucumber", "Gherkin", "Playwright", "Selenium WebDriver", "Appium", "REST Assured", "Karate", "Pact", "Apache HttpClient", "Postman", "JUnit", "TestNG", "Allure", "Extent Reports"]],
-  ["Performance, Resiliency & Observability", ["Vegeta", "Gatling", "Locust", "Chaosblade", "Grafana", "AWS CloudWatch", "Coralogix", "MySQL", "PostgreSQL", "Redis"]],
+  ["Performance, Resiliency & Observability", ["k6", "Vegeta", "Gatling", "Locust", "Chaosblade", "Grafana", "AWS CloudWatch", "Coralogix", "MySQL", "PostgreSQL", "Redis"]],
   ["Cloud & DevOps", ["AWS", "GCP", "Docker", "Kubernetes", "Terraform", "Git", "Jenkins", "Harness", "GitHub Actions", "Pipeline as Code", "Infrastructure as Code"]],
   ["Programming & Fundamentals", ["Core Java", "C++", "Python", "Groovy", "Shell Scripting", "Data Structures", "Algorithms", "OOP Principles"]],
 ] as const;
@@ -75,7 +77,7 @@ export default function ResumePage() {
     <main className="resume-page">
       <nav className="resume-toolbar" aria-label="Resume actions">
         <a href="../">← Back to portfolio</a>
-        <a className="resume-download" href="../Shiv_Ashish_Resume_April_2026.docx" download="Shiv_Ashish_Resume_April_2026.docx">
+        <a className="resume-download" href="../Shiv_Ashish_Staff_SDET_Resume.docx" download="Shiv_Ashish_Staff_SDET_Resume.docx">
           Download resume <span aria-hidden="true">↓</span>
         </a>
       </nav>
@@ -128,19 +130,11 @@ export default function ResumePage() {
           </div>
         </section>
 
-        <section className="resume-section resume-two-column">
-          <div>
-            <h2>Education</h2>
-            <h3>B.Tech in Computer Science & Engineering</h3>
-            <p>Motilal Nehru National Institute of Technology (MNNIT)</p>
-            <p>Jul 2010 - Jul 2014 · GPA 7.3</p>
-          </div>
-          <div>
-            <h2>Certifications</h2>
-            <a className="resume-resource-link" href="https://shivashishniranjan.github.io/portfolio/certifications/" target="_blank" rel="noreferrer">
-              View certifications <span aria-hidden="true">↗</span>
-            </a>
-          </div>
+        <section className="resume-section">
+          <h2>Education</h2>
+          <h3>B.Tech in Computer Science & Engineering</h3>
+          <p>Motilal Nehru National Institute of Technology (MNNIT)</p>
+          <p>Jul 2010 - Jul 2014 · GPA 7.3</p>
         </section>
       </article>
     </main>
